@@ -1,0 +1,64 @@
+
+#header {
+width: 100%;
+box-sizing: border-box;
+/* Add any other styles you need for your header */
+}
+
+.separator {
+    width: 80vw;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
+
+#deliveryAddress {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#requiredText {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#infoBox {
+    width: 80vw;
+    box-sizing: border-box;
+    margin: 0 10vh;
+    padding: 20px;
+    background-color: #e3e6f3; /* Updated background color */
+    color: #000; /* Updated text color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inputSection {
+    width: 48%;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.inputSection label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.inputSection input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    border-radius: 4px;
+}
+
+
+@media (max-width: 799px) {
+    .inputSection {
+        width: 100%;
+    }
+}

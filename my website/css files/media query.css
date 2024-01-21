@@ -1,0 +1,409 @@
+/* home page navigation query */
+@media (max-width: 799px) {
+  body{
+    padding-top: 52px;
+  }
+  #header {
+    height: 8vh;
+    position: fixed;
+    width: 100vw;
+    border-radius: 0;
+  }
+  #navbar {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0px;
+    left: -300px;
+    height: 100vh;
+    width: 175px;
+    background-color: #e3e6f3;
+    box-shadow: 10px 15px 010px rgba(0, 0, 0, 0.1);
+    padding: 8px 0 0 10px;
+    transition: .03s;
+  }
+  #navbar.active {
+    left: 0px;
+  }
+  .logo {
+    right: 55%;
+    top: 0;
+    position: fixed;
+
+    padding: 25px 0;
+  }
+  #navbar li {
+    margin: 15px 0;
+    font-size: 20px;
+  }
+  #mobile{
+    display: flex;
+  }
+  #navbar .close-icon{
+    display: flex;
+    padding-left: 60px;
+    
+  }
+  #bar{
+    margin-right: 80vw;
+   
+ }
+ .cart2{
+   padding-right: 50px;
+ }
+ .hero{
+  height: 45vh;
+  display: flex;
+  align-items: center;
+ }
+ .hero h4{
+  font-size: 20px;
+  /* padding-top: 105px; */
+ }
+ .hero h2{
+  font-size: 25px;
+ }
+ .hero h1{
+  font-size: 25px;
+  font-weight: 700;
+ }
+ .feature {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5px;
+  padding: 15px;
+  margin: 20px 0;
+
+}
+
+.fe-box {
+  width: 120px;
+  text-align: center;
+  padding: 25px 10px;
+  box-shadow: 20px 20px 34px rgba(rgba(255, 0, 0, 0.741), green, blue, alpha);
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  margin: 15px 0px;
+  display: inline;
+}
+#product1 h2{
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 30px;
+}
+#product1{
+  padding: 0px 0px;
+  margin: 0px;
+}
+#product1 .pro-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0px 5px;
+}
+#product1 .pro {
+  width: 23%;
+  min-width: 160px;
+ 
+}
+#product1 .pro .des{
+  padding: 0;
+}
+#product1 .pro .des span {
+  color: #606063;
+  font-size: 7px;
+}
+#product1 .pro .des h5 {
+  padding-top: 3px;
+  color: #1a1a1a;
+  font-size: 10px;
+}
+#product1 .pro .des i {
+  font-size: 10px;
+  color: rgb(243, 181, 25);
+}
+#product1 .pro .des h4 {
+  padding-top: 3px;
+  font-size: 10px;
+  font-weight: 700;
+  color: #088178;
+  margin: 0;
+}
+#product1 .pro .cart {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 50px;
+  background-color: #e8f6ea;
+  font-weight: 500;
+  color: #088178;
+  border: 1px solid #cce7d0;
+  position: absolute;
+  bottom: 40px;
+  right: 10px;
+  bottom: 10px;
+  transition: 0.03s ease;
+}
+#product1 .pro .cart:hover {
+  background-color: rgba(0, 0, 0, 0.329);
+}
+#banner {
+  text-align: center;
+  flex-direction: column;
+  background-image: url(https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/banner/b2.jpg?raw=true);
+  width: 100%;
+  height: 20vh;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+#banner h4 {
+  color: #fff;
+  font-size: 10px;
+}
+#banner h2 {
+  color: #fff;
+  padding: 5px 0;
+  font-size: 20px;
+  line-height: 20px;
+}
+#banner h2 span {
+  color: #c44040;
+}
+.normal:hover {
+  background-color: rgb(235, 226, 226);
+}
+#sm-banner .banner-box {
+  align-items: flex-start;
+  flex-direction: column;
+  background-image: url(https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/banner/b17.jpg?raw=true);
+  min-width: 100%;
+  height: 025vh;
+  background-size: cover;
+  background-position: center right;
+  z-index: 1;
+  padding: 10px;
+  border-radius: 15px;
+}
+#sm-banner {
+  padding: 5px;
+  margin: 0 5px;
+  gap: 5px;
+}
+#sm-banner h4 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+padding: 0;
+margin: 0;
+}
+#sm-banner h2 {
+  color: #fff;
+  font: size 10px;
+  font-weight: 500;
+}
+#sm-banner span {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 800;
+  font: bold;
+  padding-bottom: 5px;
+}
+#sm-banner .banner-box:hover button {
+  background-color: #088178;
+  border: 1px solid #088178;
+}
+#banner3 .banner-box {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/banner/b7.jpg?raw=true);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 20vh;
+  z-index: 1;
+  padding: 1px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+}
+#banner3 h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#banner3 h4 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+}
+#banner3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+  flex-wrap: wrap;
+}
+#newsletter {
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url(https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/banner/b7.jpg?raw=true);
+  background-size: cover;
+  background-position: center;
+  min-width: 40%;
+  height: 25vh;
+  z-index: 1;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+#newsletter h4 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+#newsletter p {
+  color: #fff;
+  font-size: 12px;
+}
+.form {
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15pxx;
+}
+#email {
+  padding: 8px 35px;
+  text-align: start;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  margin-right: 10px;
+}
+.sign-btn {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 15px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.25s ease;
+}
+.sign-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+.footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column {
+  flex-basis: 24%;
+  margin-bottom: 20px;
+}
+
+.column img {
+  display: block;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #666;
+}
+
+.fa {
+  margin-right: 10px;
+}
+button.normal{
+  font-size: 8px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: .25s ease;
+  }
+button.white{
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #000;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition: .25s ;
+  color: #fff;
+}
+/* #sm-banner h2{
+  font-size: 13px;
+  line-height: 30px;
+} */
+.page-header{
+  padding-top: 15vh;
+}
+
+}
+
+
+/* account pafe qureey */
+@media screen and (max-width: 1123px) {
+  .account-section {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .left-section {
+      width: 100%;
+      padding-right: 0;
+      padding-left: 20px;
+  }
+
+  .right-section {
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-left: 0;
+  }
+
+}

@@ -1,0 +1,135 @@
+.account-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 95vw;
+    min-height: 50vh;
+    margin: 15vh 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+  
+  .left-section {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 50px;
+  
+  }
+  
+  .right-section {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-left: 35vw;
+  }
+  
+  .account-info {
+    margin-bottom: 20px;
+  }
+  
+  .account-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .user-details {
+    font-size: 16px;
+  }
+  
+  .user-actions {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .btn-secondary {
+    background-color: #e74c3c;
+  }
+  
+  .password-section {
+    margin-top: 20px;
+  }
+  
+  .password-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .password-inputs {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .password-inputs label {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .password-inputs input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .your-order-heading h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #your-order-table {
+    padding: 20px;
+    width: 85vw;
+    height: 100%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .your-order-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.735);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0%;
+    border-radius: 15px;
+  }
+  
+  .thead-dark {
+    background-color: #3498db;
+  }
+  
